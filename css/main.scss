@@ -1,6 +1,8 @@
             body {
                 padding: 0;
                 height: 100%;
+                float: left;
+                position: relative;
             }
             
             body {
@@ -10,17 +12,21 @@
             .row,
             .container-fluid {
                 padding: 0;
+                margin: 0;
                 box-sizing: border-box;
                 width: 100%;
             }
             
             aside.main-information {
                 background: #3b4752;
-                width: 100%;
                 float: left;
                 padding: 40px;
                 box-sizing: border-box;
-                height: 100%;
+                height: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
                 .photo {
                     text-align: center;
                     width: 300px;
@@ -236,5 +242,19 @@
                             }
                         }
                     }
+                }
+            }
+            
+            .the-law-statement {
+                float: left;
+                box-sizing: border-box;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 40px;
+                padding: 40px;
+                article {
+                    float: left;
+                    font-size: 16px;
+                    color: #888;
                 }
             }

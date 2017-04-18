@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1600px) {
+    aside.main-information {
+        .contact-address {
+            .address-row {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    aside.main-information {
+        position: static;
+        .contact-address {
+            .address-row {
+                width: 50%;
+            }
+        }
+    }
+    .timeline {
+        .timeline-row {
+            .education-row,
+            .skill-row {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    aside.main-information {
+        .photo {
+            width: 200px;
+            height: 200px;
+            img {
+                width: 200px;
+            }
+        }
+        .contact-address {
+            .address-row {
+                width: 100%;
+            }
+        }
+    }
+    .timeline {
+        .timeline-row {
+            .education-row,
+            .skill-row {
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .timeline {
+        padding: 40px 10px;
+    }
+}
