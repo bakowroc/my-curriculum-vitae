@@ -1,0 +1,240 @@
+            body {
+                padding: 0;
+                height: 100%;
+            }
+            
+            body {
+                font-family: 'Lato', sans-Serif;
+            }
+            
+            .row,
+            .container-fluid {
+                padding: 0;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            
+            aside.main-information {
+                background: #3b4752;
+                width: 100%;
+                float: left;
+                padding: 40px;
+                box-sizing: border-box;
+                height: 100%;
+                .photo {
+                    text-align: center;
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto;
+                    border: 1px solid rgba(white, 0.45);
+                    overflow: hidden;
+                    margin-bottom: 40px;
+                }
+                h1.fullname,
+                h2.specialization,
+                article.about-me {
+                    font-weight: 800;
+                    color: #fff;
+                    font-size: 28px;
+                    float: left;
+                    width: 100%;
+                    margin-bottom: 0;
+                    text-align: center;
+                }
+                h2.specialization {
+                    font-size: 20px;
+                    color: #7a7c9c;
+                    font-weight: 600;
+                }
+                article.about-me {
+                    margin-top: 40px;
+                    font-size: 16px;
+                    opacity: 0.2;
+                    color: #fff;
+                    font-weight: 400;
+                    text-align: justify;
+                }
+                .contact-address {
+                    margin-top: 80px;
+                    float: left;
+                    width: 100%;
+                    box-sizing: border-box;
+                    .address-row {
+                        float: left;
+                        width: 50%;
+                        box-sizing: border-box;
+                        margin-bottom: 20px;
+                        .address-icon {
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            color: #fff;
+                            float: left;
+                            padding-top: 9px;
+                            font-size: 12px;
+                            box-sizing: border-box;
+                            border-radius: 100%;
+                            border: 3px solid #70aa77;
+                            background: transparent;
+                        }
+                        .address-name {
+                            float: left;
+                            color: #fff;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .skill-progress {
+                    margin-top: 80px;
+                    float: left;
+                    width: 100%;
+                    box-sizing: border-box;
+                    .bar {
+                        position: relative;
+                        width: 100%;
+                        float: left;
+                        margin-bottom: 20px;
+                        background: rgba(black, 0.1);
+                        height: 30px;
+                        .progress,
+                        .skill-name {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 1;
+                        }
+                        .skill-name {
+                            color: #fff;
+                            top: 5px;
+                            left: 10px;
+                            font-size: 14px;
+                            font-weight: 800;
+                            //text-transform: uppercase;
+                            z-index: 2;
+                        }
+                        .progress {
+                            border-radius: 0;
+                            background: #70aa77;
+                            height: 100%;
+                            &.p10 {
+                                width: 10%;
+                            }
+                            &.p20 {
+                                width: 20%;
+                            }
+                            &.p30 {
+                                width: 30%;
+                            }
+                            &.p40 {
+                                width: 40%;
+                            }
+                            &.p50 {
+                                width: 50%;
+                            }
+                            &.p60 {
+                                width: 60%;
+                            }
+                            &.p70 {
+                                width: 70%;
+                            }
+                            &.p80 {
+                                width: 80%;
+                            }
+                            &.p90 {
+                                width: 90%;
+                            }
+                            &.p100 {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .timeline {
+                float: left;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 40px;
+                .timeline-row {
+                    float: left;
+                    width: 100%;
+                    margin-bottom: 40px;
+                    header {
+                        float: left;
+                        width: 100%;
+                        border-bottom: 1px solid #eee;
+                        padding-bottom: 10px;
+                        margin-bottom: 20px;
+                        .icon {
+                            font-size: 28px;
+                            float: left;
+                            margin-right: 40px;
+                            color: #70aa77;
+                        }
+                        .timeline-name {
+                            font-size: 24px;
+                            padding: 0;
+                            margin: 0;
+                            margin-top: 5px;
+                            color: #3b4752;
+                        }
+                    }
+                    .education-row,
+                    .skill-row {
+                        padding-left: 70px;
+                        float: left;
+                        width: 80%;
+                        box-sizing: border-box;
+                        .start {
+                            margin-bottom: 10px;
+                            .ball-icon,
+                            .icon {
+                                float: left;
+                                margin-right: 20px;
+                                width: 18px;
+                                height: 18px;
+                                background: #7a7c9c;
+                                border-radius: 100%;
+                                position: relative;
+                                top: 8px;
+                            }
+                            .icon {
+                                background: none;
+                                width: auto;
+                                height: auto;
+                                color: #7a7c9c;
+                                font-size: 24px;
+                            }
+                            .years,
+                            .skill-name {
+                                float: left;
+                                font-weight: 800;
+                                font-size: 24px;
+                            }
+                            .skill-name {
+                                position: relative;
+                                top: 5px;
+                            }
+                        }
+                        article.about-activity {
+                            width: 100%;
+                            float: left;
+                            border-left: 1px solid #eee;
+                            margin-left: 9px;
+                            padding: 10px;
+                            color: #888;
+                            font-size: 18px;
+                            &.no-border {
+                                border: 0;
+                                margin-left: 37px;
+                            }
+                        }
+                    }
+                }
+            }

@@ -1,0 +1,209 @@
+body {
+  padding: 0;
+  height: 100%; }
+
+body {
+  font-family: 'Lato', sans-Serif; }
+
+.row,
+.container-fluid {
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%; }
+
+aside.main-information {
+  background: #3b4752;
+  width: 100%;
+  float: left;
+  padding: 40px;
+  box-sizing: border-box;
+  height: 100%; }
+  aside.main-information .photo {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    overflow: hidden;
+    margin-bottom: 40px; }
+  aside.main-information h1.fullname,
+  aside.main-information h2.specialization,
+  aside.main-information article.about-me {
+    font-weight: 800;
+    color: #fff;
+    font-size: 28px;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center; }
+  aside.main-information h2.specialization {
+    font-size: 20px;
+    color: #7a7c9c;
+    font-weight: 600; }
+  aside.main-information article.about-me {
+    margin-top: 40px;
+    font-size: 16px;
+    opacity: 0.2;
+    color: #fff;
+    font-weight: 400;
+    text-align: justify; }
+  aside.main-information .contact-address {
+    margin-top: 80px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box; }
+    aside.main-information .contact-address .address-row {
+      float: left;
+      width: 50%;
+      box-sizing: border-box;
+      margin-bottom: 20px; }
+      aside.main-information .contact-address .address-row .address-icon {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        color: #fff;
+        float: left;
+        padding-top: 9px;
+        font-size: 12px;
+        box-sizing: border-box;
+        border-radius: 100%;
+        border: 3px solid #70aa77;
+        background: transparent; }
+      aside.main-information .contact-address .address-row .address-name {
+        float: left;
+        color: #fff;
+        padding-top: 10px;
+        padding-left: 10px; }
+        aside.main-information .contact-address .address-row .address-name a {
+          text-decoration: none;
+          color: #fff; }
+  aside.main-information .skill-progress {
+    margin-top: 80px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box; }
+    aside.main-information .skill-progress .bar {
+      position: relative;
+      width: 100%;
+      float: left;
+      margin-bottom: 20px;
+      background: rgba(0, 0, 0, 0.1);
+      height: 30px; }
+      aside.main-information .skill-progress .bar .progress,
+      aside.main-information .skill-progress .bar .skill-name {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1; }
+      aside.main-information .skill-progress .bar .skill-name {
+        color: #fff;
+        top: 5px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: 800;
+        z-index: 2; }
+      aside.main-information .skill-progress .bar .progress {
+        border-radius: 0;
+        background: #70aa77;
+        height: 100%; }
+        aside.main-information .skill-progress .bar .progress.p10 {
+          width: 10%; }
+        aside.main-information .skill-progress .bar .progress.p20 {
+          width: 20%; }
+        aside.main-information .skill-progress .bar .progress.p30 {
+          width: 30%; }
+        aside.main-information .skill-progress .bar .progress.p40 {
+          width: 40%; }
+        aside.main-information .skill-progress .bar .progress.p50 {
+          width: 50%; }
+        aside.main-information .skill-progress .bar .progress.p60 {
+          width: 60%; }
+        aside.main-information .skill-progress .bar .progress.p70 {
+          width: 70%; }
+        aside.main-information .skill-progress .bar .progress.p80 {
+          width: 80%; }
+        aside.main-information .skill-progress .bar .progress.p90 {
+          width: 90%; }
+        aside.main-information .skill-progress .bar .progress.p100 {
+          width: 100%; }
+
+.timeline {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px; }
+  .timeline .timeline-row {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px; }
+    .timeline .timeline-row header {
+      float: left;
+      width: 100%;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 20px; }
+      .timeline .timeline-row header .icon {
+        font-size: 28px;
+        float: left;
+        margin-right: 40px;
+        color: #70aa77; }
+      .timeline .timeline-row header .timeline-name {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        color: #3b4752; }
+    .timeline .timeline-row .education-row,
+    .timeline .timeline-row .skill-row {
+      padding-left: 70px;
+      float: left;
+      width: 80%;
+      box-sizing: border-box; }
+      .timeline .timeline-row .education-row .start,
+      .timeline .timeline-row .skill-row .start {
+        margin-bottom: 10px; }
+        .timeline .timeline-row .education-row .start .ball-icon,
+        .timeline .timeline-row .education-row .start .icon,
+        .timeline .timeline-row .skill-row .start .ball-icon,
+        .timeline .timeline-row .skill-row .start .icon {
+          float: left;
+          margin-right: 20px;
+          width: 18px;
+          height: 18px;
+          background: #7a7c9c;
+          border-radius: 100%;
+          position: relative;
+          top: 8px; }
+        .timeline .timeline-row .education-row .start .icon,
+        .timeline .timeline-row .skill-row .start .icon {
+          background: none;
+          width: auto;
+          height: auto;
+          color: #7a7c9c;
+          font-size: 24px; }
+        .timeline .timeline-row .education-row .start .years,
+        .timeline .timeline-row .education-row .start .skill-name,
+        .timeline .timeline-row .skill-row .start .years,
+        .timeline .timeline-row .skill-row .start .skill-name {
+          float: left;
+          font-weight: 800;
+          font-size: 24px; }
+        .timeline .timeline-row .education-row .start .skill-name,
+        .timeline .timeline-row .skill-row .start .skill-name {
+          position: relative;
+          top: 5px; }
+      .timeline .timeline-row .education-row article.about-activity,
+      .timeline .timeline-row .skill-row article.about-activity {
+        width: 100%;
+        float: left;
+        border-left: 1px solid #eee;
+        margin-left: 9px;
+        padding: 10px;
+        color: #888;
+        font-size: 18px; }
+        .timeline .timeline-row .education-row article.about-activity.no-border,
+        .timeline .timeline-row .skill-row article.about-activity.no-border {
+          border: 0;
+          margin-left: 37px; }
+
+/*# sourceMappingURL=main.css.map */
