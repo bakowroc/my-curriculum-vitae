@@ -57,12 +57,16 @@ aside.main-information {
     margin-top: 80px;
     float: left;
     width: 100%;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    transition: all 0.3s ease; }
     aside.main-information .contact-address .address-row {
       float: left;
       width: 50%;
       box-sizing: border-box;
       margin-bottom: 20px; }
+      aside.main-information .contact-address .address-row:hover .address-icon {
+        transform: rotateZ(360deg);
+        transition: all 0.3s ease; }
       aside.main-information .contact-address .address-row .address-icon {
         width: 40px;
         height: 40px;
@@ -75,6 +79,8 @@ aside.main-information {
         border-radius: 100%;
         border: 3px solid #70aa77;
         background: transparent; }
+        aside.main-information .contact-address .address-row .address-icon.out {
+          border-color: #7a7c9c; }
       aside.main-information .contact-address .address-row .address-name {
         float: left;
         color: #fff;
