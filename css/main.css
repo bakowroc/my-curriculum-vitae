@@ -2,10 +2,28 @@ body {
   padding: 0;
   height: 100%;
   float: left;
-  position: relative; }
+  position: relative;
+  font-family: 'Lato', sans-serif; }
 
-body {
-  font-family: 'Lato', sans-Serif; }
+a.download-button {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  padding-top: 17px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.2);
+  background: #70aa77;
+  z-index: 99999999999999;
+  transition: all 0.3s ease; }
+  a.download-button:hover {
+    transition: all 0.3s ease;
+    box-shadow: 3px 7px 20px rgba(0, 0, 0, 0.3); }
 
 .row,
 .container-fluid {
